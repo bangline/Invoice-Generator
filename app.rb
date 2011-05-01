@@ -1,4 +1,5 @@
 # Generates the invoice PDF based on user input
+gem 'prawn', '=0.8.4'
 require 'prawn'
 require 'prawn/layout'
 require 'csv'
